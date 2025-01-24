@@ -11,8 +11,8 @@ body {
 
   h1{
     color: white;
-    font-size: 500px;
-    font-kerning: 70px;
+    font-size: 250px;
+    font-kerning: auto;
   }
 
   p{
