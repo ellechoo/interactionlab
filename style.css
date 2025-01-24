@@ -11,7 +11,13 @@ body {
 
   h1{
     color: white;
-    font-size: 300px;
+    font-size: 500px;
+    font-kerning: 70px;
+  }
+
+  p{
+    color:black;
+    font-size: 100px;
     font-kerning: auto;
   }
   
@@ -38,7 +44,7 @@ body {
   
   nav a:hover {
     transform: scale(1.2);
-    color: #FFD700;
+    color: #ff00cc;
   }
   
   .home-btn {
@@ -67,7 +73,7 @@ body {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(47, 74, 149, 0.9);
+    background-color: rgba(160, 20, 142, 0.9);
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -82,7 +88,7 @@ body {
   }
   
   .dropdown-content a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #ff00001a;
   }
   
   .dropdown:hover .dropdown-content {
