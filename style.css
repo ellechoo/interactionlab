@@ -10,13 +10,13 @@ body {
   }
   
   nav {
-    position: fixed; /* Keeps nav at the top of the screen */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     text-align: left;
     padding: 10px 0;
-    z-index: 3; /* Higher than the carousel and content */
+    z-index: 3;
     display: flex;
     align-items: center;
   }
@@ -27,12 +27,12 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for transform and color */
+    transition: transform 0.3s ease, color 0.3s ease;
   }
   
   nav a:hover {
-    transform: scale(1.2); /* Increase size when hovering */
-    color: #FFD700; /* Change color to gold (or any color you prefer) */
+    transform: scale(1.2);
+    color: #FFD700;
   }
   
   .home-btn {
@@ -58,7 +58,6 @@ body {
     cursor: pointer;
   }
   
-  /* Drop-down Content (hidden by default) */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -68,7 +67,6 @@ body {
     z-index: 1;
   }
   
-  /* Links inside the drop-down */
   .dropdown-content a {
     color: white;
     padding: 10px;
@@ -81,7 +79,6 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
   }
   
-  /* Show the drop-down on hover */
   .dropdown:hover .dropdown-content {
     display: block;
   }
